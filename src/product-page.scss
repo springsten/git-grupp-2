@@ -1,13 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 .productCard {
   padding: 10px;
-  max-width: 350px;
-  margin: auto;
+  max-width: 480px;
+  margin: 10px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -25,8 +26,11 @@
 
 .poster {
   max-width: 300px;
+  margin: 10px 0 20px;
 }
-
+.buttons {
+  margin: 20px 0 10px 0;
+}
 .btn {
   background-color: black;
   cursor: pointer;
