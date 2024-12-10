@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.productCard {
+  padding: 10px;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.productCard p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.poster {
+  max-width: 300px;
+}
+
+.btn {
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+.btn:hover {
+  background-color: rgb(110, 110, 110);
+}/*# sourceMappingURL=product-page.css.map */
