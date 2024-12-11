@@ -101,3 +101,38 @@ button:focus-visible {
   box-sizing: border-box;
 }
 
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.navLinks li {
+  padding: 10px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.hamburgerMenu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburgerMenu .bar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+}
+
