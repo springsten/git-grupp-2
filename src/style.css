@@ -3,13 +3,24 @@
   display: grid;
 }
 
-.movies-preview-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto auto;
-}
-
 h1 {
   color: azure;
   justify-self: center;
+}
+
+.movie-poster {
+/* width: fit-content; */
+}
+
+.preview-movie {
+width: max-content;
+}
+
+.movies-preview-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
 }
