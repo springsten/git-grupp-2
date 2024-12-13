@@ -1,13 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
+    <link href="src/style.css" rel="stylesheet" />
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <div class="navContainer">
+      <nav class="navBar">
+        <div class="toggle">
+          <input type="checkbox" id="check" />
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+
+          <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product-page.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="background-body-container">
+      <h1>Movies on demand</h1>
+      <div class="movies-preview-container">
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/deadpool&wolverine.jpg"
+              alt="deadpool&wolverineposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/dune2.jpg"
+              alt="dune2poster"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/furiosa.jpg"
+              alt="furiosaposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/joker.jpg"
+              alt="jokerposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/alien.jpg"
+              alt="alienposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/the substance.jpg"
+              alt="thesubstanceposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/civilwar.jpg"
+              alt="civilwarposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/beetlejuice beetlejuice.jpg"
+              alt="beetlejuicebeetlejuiceposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/kingdom planet of apes.jpg"
+              alt="kingdomplanetofapesposter"
+          /></a>
+        </div>
+        <div class="preview-movie">
+          <a href="#"
+            ><img
+              class="movie-poster"
+              src="/src/movies-images/longlegs.jpg"
+              alt="longlegsposter"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="#">Om oss</a>
+        <a href="#">Integritetspolicy</a>
+        <a href="#">Kontakta oss</a>
+      </div>
+      <p class="footer-text">© 2024 Medieinstitutet</p>
+    </footer>
+  </div>
   </body>
 </html>

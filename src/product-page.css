@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+@media (min-width: 576px) {
+  .product-page {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .poster {
+    max-width: 200px;
+    margin: 10px 0 20px;
+  }
+}
+.productCard {
+  padding: 10px;
+  max-width: 100%;
+  margin: 2px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.productCard p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+.productCard .productTitle {
+  font-size: 1.4rem;
+  padding: 10px;
+}
+.productCard .poster {
+  max-width: 200px;
+  margin: 10px 0 20px;
+}
+
+.description {
+  text-align: left;
+}
+
+.buttons {
+  margin: 20px 0 10px 0;
+}
+
+.btn {
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+.btn:hover {
+  background-color: rgb(26, 26, 26);
+}
+
+.moreInfo {
+  background-color: rgb(15, 88, 245);
+}
+
+.buyButton {
+  background-color: rgb(0, 158, 74);
+}/*# sourceMappingURL=product-page.css.map */
