@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-.navContainer{
+.navContainer {
   background-color: blue;
 }
 
@@ -37,12 +37,13 @@ body {
   display: block;
   width: 33px;
   height: 4px;
-  background-color: black;
+  background-color: rgb(229, 235, 237);
   margin-bottom: 5px;
   position: relative;
   z-index: 1;
   transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.5s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.5s ease;
 }
 
 .toggle input:checked ~ span {
@@ -69,7 +70,7 @@ body {
   list-style: none;
 
   transform: translate(-100%);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 .toggle input:checked ~ ul {
@@ -176,7 +177,7 @@ footer {
   .navLinks li {
     padding-left: 1rem;
   }
-  .navContainer{
+  .navContainer {
     background-color: rebeccapurple;
     height: 15vh;
   }
@@ -216,4 +217,3 @@ footer {
     color: white;
   } */
 }
-
