@@ -1,5 +1,29 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+=======
+.background {
+  background-color: black;
+  display: grid;
+}
+
+h1 {
+  color: azure;
+  justify-self: center;
+}
+
+.preview-movie {
+width: max-content;
+}
+
+.movies-preview-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+>>>>>>> 26dd03099fb51b55a6964a36631620cd426abd0c
 }
