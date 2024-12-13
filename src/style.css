@@ -200,6 +200,10 @@ body {
   .navLinks li {
     padding-left: 1rem;
   }
+  .navContainer{
+    background-color: rebeccapurple;
+    height: 15vh;
+  }
   .toggle .bar1 {
     display: none;
   }
