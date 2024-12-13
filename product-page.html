@@ -2,13 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <title>Vite + TS</title>
+    <link href="src/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="src/product-page.css" />
-    <title>Product page</title>
   </head>
-  <body>
+
+  <body class="background">
+    <div class="navContainer">
+      <nav class="navBar">
+        <div class="toggle">
+          <input type="checkbox" id="check" />
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+
+          <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <main class="product-page">
       <article class="productCard">
         <h2 class="productTitle">Harry Potter och hemligheternas kammare</h2>
@@ -117,5 +134,13 @@
         </div>
       </article>
     </main>
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="#">Om oss</a>
+        <a href="#">Integritetspolicy</a>
+        <a href="#">Kontakta oss</a>
+      </div>
+      <p class="footer-text">© 2024 Medieinstitutet</p>
+    </footer>
   </body>
 </html>
